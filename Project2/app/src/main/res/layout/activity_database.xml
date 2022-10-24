@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Database">
+
+    <?xml version="1.0" encoding="utf-8"?>
+
+    <Button
+        android:id="@+id/deleteButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Row"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/deleteButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Row"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/deleteButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Row"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <GridLayout
+        android:layout_width="283dp"
+        android:layout_height="729dp"
+        android:columnCount="4"
+        android:useDefaultMargins="true"
+        tools:layout_editor_absoluteY="2dp">
+
+        <TextView android:text="Item Name" />
+
+        <TextView
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="Amount of Item" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/addItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <Button
+        android:id="@+id/deleteButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Row"
+        app:layout_constraintBottom_toTopOf="@+id/deleteButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <Button
+        android:id="@+id/editItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Items"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+    <Button
+        android:id="@+id/notificationsButton"
+        android:layout_width="106dp"
+        android:layout_height="99dp"
+        android:text="Receive SMS"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="509dp" />
+
